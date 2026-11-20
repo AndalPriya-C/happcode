@@ -39,3 +39,4 @@ Fonts: Plus Jakarta Sans (desktop UI), Space Grotesk (mobile UI), JetBrains Mono
 
 ## Shortcuts
 `Ctrl/Cmd+Enter` run, `Esc` stop, `Ctrl/Cmd+S` save draft (localStorage), `Ctrl+F` find, `Ctrl+H` replace.
+"# happcode" 
