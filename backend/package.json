@@ -1,0 +1,28 @@
+{
+  "name": "happcode-backend",
+  "version": "0.2.0",
+  "private": true,
+  "type": "module",
+  "engines": { "node": ">=18.17" },
+  "scripts": {
+    "dev": "tsx watch src/server.ts",
+    "typecheck": "tsc --noEmit -p .",
+    "build": "tsc -p .",
+    "start": "node dist/server.js",
+    "test:smoke": "tsx scripts/smoke-test.ts"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.21.2",
+    "express-rate-limit": "^7.4.1",
+    "helmet": "^8.0.0",
+    "zod": "^3.23.8"
+  },
+  "devDependencies": {
+    "@types/cors": "^2.8.17",
+    "@types/express": "^4.17.21",
+    "@types/node": "^20.16.0",
+    "tsx": "^4.19.2",
+    "typescript": "~5.6.3"
+  }
+}
